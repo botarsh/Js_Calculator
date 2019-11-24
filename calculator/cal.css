@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
 }
-
+/* background of calculator */
 #back{
     background: linear-gradient(to right, #d9a7c7, #fffcdc);
     height: 728px;
     width: 100%;
 }
-
+/* css for calculator div */
 table{
     position: relative;
     top: 12px;
 }
-
+/* css for buttons */
 .button{
     width: 50px;
     height: 50px;
@@ -26,7 +26,7 @@ table{
     border-radius: 3px;
     opacity: 0.7;
 }
-
+/* css for view part of calculator */
 .text-view{
     width: 207px;
     height: 40px;
@@ -37,7 +37,7 @@ table{
     color: #607d8b;
     border-radius: 3px;
 }
-
+/* main ares of calculator */
 .main{
     position: absolute;
     top: 50%;
@@ -49,7 +49,7 @@ table{
     padding: 8px 6px ;
     background-color: #d1c5c5;
 }
-
+/* css for button when hover over buttons */
 input[type="button"]:hover{
     background-color: dimgrey;
 }
